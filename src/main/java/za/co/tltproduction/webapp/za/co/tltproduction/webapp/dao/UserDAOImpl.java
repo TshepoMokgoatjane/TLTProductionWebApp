@@ -38,7 +38,7 @@ public class UserDAOImpl implements UserDAO {
     @SuppressWarnings("unchecked")
     public List<User> listUsers() {
         Session session = this.sessionFactory.getCurrentSession();
-        List<User> userList = session.createQuery("from USER").list();
+        List<User> userList = session.createQuery("FROM USER").list();
         for(User user : userList) {
             logger.info("User List::"+user);
         }
@@ -46,10 +46,18 @@ public class UserDAOImpl implements UserDAO {
     }
 
     public User getUserById(int id) {
-        return null;
+        Session session = this.sessionFactory.getCurrentSession();
+        User user = (User) session.load(User.class, new Integer(id));
+        logger.info("User loaded successfully, User Details="+user);
+        return user;
     }
 
     public void removeUser(int id) {
-
+        Session session = this.sessionFactory.getCurrentSession();
+        User user = (User) session.load(User.class, new Integer(id));
+        if(null != user) {
+            session.delete(user);
+        }
+        logger.info("User deleted successfully, User Details="+user);
     }
 }
