@@ -13,7 +13,7 @@
 <html>
 <head>
     <title>User Page</title>
-    <link type="text/css" href="formStyle.css" rel="stylesheet">
+    <link type="text/css" href="./resources/css/custom/formStyle.css" rel="stylesheet">
 </head>
 <body>
     <h1>Add a User</h1>

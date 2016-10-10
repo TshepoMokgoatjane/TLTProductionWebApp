@@ -20,7 +20,7 @@ public class UserController {
     private UserService userService;
 
     @Autowired(required = true)
-    @Qualifier(value = "userService")
+    //@Qualifier(value = "userService")
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
@@ -29,7 +29,7 @@ public class UserController {
     public String listUsers(Model model) {
         model.addAttribute("user", new User());
         model.addAttribute("listUsers", this.userService.listUsers());
-        return "user";
+        return "/jsp/user";
     }
 
     // For add and update person both
@@ -55,6 +55,6 @@ public class UserController {
     public String editUser(@PathVariable("id") int id, Model model) {
         model.addAttribute("user", this.userService.getUserById(id));
         model.addAttribute("listUsers", this.userService.listUsers());
-        return "user";
+        return "/jsp/user";
     }
 }
