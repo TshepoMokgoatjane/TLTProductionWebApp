@@ -20,13 +20,14 @@ public class UserController {
     private UserService userService;
 
     @Autowired(required = true)
-    //@Qualifier(value = "userService")
+    @Qualifier(value = "userService")
     public void setUserService(UserService userService) {
         this.userService = userService;
     }
 
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     public String listUsers(Model model) {
+        System.out.println(">>>>> Inside the {listUsers} method...");
         model.addAttribute("user", new User());
         model.addAttribute("listUsers", this.userService.listUsers());
         return "/jsp/user";
@@ -42,13 +43,13 @@ public class UserController {
             // existing user, call update
             this.userService.updateUser(user);
         }
-        return "redirect:/users";
+        return "redirect:/jsp/users";
     }
 
     @RequestMapping("/remove/{id}")
     public String removePerson(@PathVariable("id") int id) {
         this.userService.removeUser(id);
-        return "redirect:/users";
+        return "redirect:/jsp/users";
     }
 
     @RequestMapping("/edit/{id}")
