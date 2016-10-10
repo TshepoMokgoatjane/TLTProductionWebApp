@@ -30,7 +30,7 @@ public class UserController {
         System.out.println(">>>>> Inside the {listUsers} method...");
         model.addAttribute("user", new User());
         model.addAttribute("listUsers", this.userService.listUsers());
-        return "/jsp/user";
+        return "user";
     }
 
     // For add and update person both
@@ -43,19 +43,19 @@ public class UserController {
             // existing user, call update
             this.userService.updateUser(user);
         }
-        return "redirect:/jsp/users";
+        return "redirect:/users";
     }
 
     @RequestMapping("/remove/{id}")
-    public String removePerson(@PathVariable("id") int id) {
+    public String removeUser(@PathVariable("id") int id) {
         this.userService.removeUser(id);
-        return "redirect:/jsp/users";
+        return "redirect:/users";
     }
 
     @RequestMapping("/edit/{id}")
     public String editUser(@PathVariable("id") int id, Model model) {
         model.addAttribute("user", this.userService.getUserById(id));
         model.addAttribute("listUsers", this.userService.listUsers());
-        return "/jsp/user";
+        return "user";
     }
 }
