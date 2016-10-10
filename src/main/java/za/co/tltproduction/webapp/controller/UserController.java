@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import za.co.tltproduction.webapp.za.co.tltproduction.webapp.model.User;
-import za.co.tltproduction.webapp.za.co.tltproduction.webapp.service.UserService;
+import za.co.tltproduction.webapp.model.User;
+import za.co.tltproduction.webapp.service.UserService;
 
 /**
  * Created by Tshepo.Mokgoatjane on 03-Oct-16.
