@@ -13,12 +13,12 @@
 <html>
 <head>
     <title>User Page</title>
-    <link type="text/css" href="./resources/css/custom/formStyle.css" rel="stylesheet">
+    <link type="text/css" href="${pageContext.request.contextPath}/resources/css/custom/formStyle.css" rel="stylesheet">
 </head>
 <body>
     <h1>Add a User</h1>
 
-    <c:url var="addAction" value="/user/add"></c:url>
+    <c:url var="addAction" value="/user/add" />
 
     <form:form action="${addAction}" commandName="user">
         <table>
@@ -75,7 +75,7 @@
     </form:form>
     <br />
     <h3>User List</h3>
-    <c:if test="${!empty listUser}">
+    <c:if test="${!empty listUsers}">
         <table class="tg">
             <thead>
                 <tr>
@@ -87,6 +87,7 @@
                 </tr>
             </thead>
             <tbody>
+            <c:forEach items="${listUsers}" var="user">
                 <tr>
                     <td>${user.id}</td>
                     <td>${user.name}</td>
@@ -95,9 +96,10 @@
                         <a href="<c:url value='/edit/${user.id}' />">Edit</a>
                     </td>
                     <td>
-                        <a href="<c:url value=''/remove/${user.id} />">Delete</a>
+                        <a href="<c:url value='/remove/${user.id}' />">Delete</a>
                     </td>
                 </tr>
+            </c:forEach>
             </tbody>
         </table>
     </c:if>
