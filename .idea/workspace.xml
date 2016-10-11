@@ -1221,7 +1221,7 @@
       <workItem from="1476165267769" duration="360000" />
       <workItem from="1476187986659" duration="571000" />
       <workItem from="1476188630590" duration="44000" />
-      <workItem from="1476188731102" duration="5584000" />
+      <workItem from="1476188731102" duration="5598000" />
     </task>
     <task id="LOCAL-00001" summary="TLTProductionWebApp&#10;&#10;This Web Application is built using Spring MVC Framework, Hibernate,&#10;Bootstrap, Apache Tomcat Application Server and MySQL for my Database.&#10;">
       <created>1475597436749</created>
@@ -1286,11 +1286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476194328262</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed the HTTP 404 Error and the application seems to be working pretty nicely.">
+      <created>1476194346576</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1476194346576</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36225000" />
+    <option name="totallyTimeSpent" value="36239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
