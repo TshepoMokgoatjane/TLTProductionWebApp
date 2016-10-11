@@ -9,6 +9,6 @@ public class HomeController {
     @RequestMapping(value = "/")
     public String home() {
         System.out.println("HomeController ********");
-        return "/views/homePage";
+        return "/homePage";
     }
 }
