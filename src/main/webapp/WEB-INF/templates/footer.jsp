@@ -12,6 +12,7 @@
         <p>&copy; 2016 Company, Inc.</p>
     </footer>
 
+    </div>
 </div>
         <!-- Bootstrap core JavaScript
         ================================================== -->

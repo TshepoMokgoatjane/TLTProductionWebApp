@@ -6,12 +6,13 @@
   To change this template use File | Settings | File Templates.
 --%>
 <jsp:include page="../templates/header.jsp" />
+
 <jsp:include page="../templates/menu.jsp" />
 
     <div class="page-header">
         <h1>TLTProduction Web App</h1>
     </div>
-    <p><strong>Spring MVC Development</strong></p>
+    <p><h2>Spring MVC Development</h2></p>
 
     <div class="well">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -25,13 +26,13 @@
     <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
-            <h2>Family Background</h2>
+            <h2>Personal Background</h2>
             <p class="text-danger">As of v9.1.2, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>Personal Info</h2>
+            <h2>Work Experience</h2>
             <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
@@ -41,5 +42,20 @@
             <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
         </div>
     </div>
+
+
+    <!-- Personal Background -->
+    <h2>Personal Background</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+
+    <!-- Work Experience -->
+    <h2>Work Experience</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
+    <!-- Career Advancements -->
+    <h2>Career Advancements</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+
 
 <jsp:include page="../templates/footer.jsp" />
