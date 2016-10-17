@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e951b25-9e3e-4c8d-ad25-7e91e966ba67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/TshepoM.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MenuLinkSQL.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/custom/mediaCSS.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/lib/w3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/lib/w3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/co/tltproduction/webapp/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/za/co/tltproduction/webapp/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/co/tltproduction/webapp/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/za/co/tltproduction/webapp/controller/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/menu.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/menu.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css" />
     </list>
     <ignored path="TLTProductionWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -888,7 +876,7 @@
       <workItem from="1476188731102" duration="5598000" />
       <workItem from="1476203969122" duration="1302000" />
       <workItem from="1476205468128" duration="43857000" />
-      <workItem from="1476721853594" duration="118000" />
+      <workItem from="1476721853594" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="TLTProductionWebApp&#10;&#10;This Web Application is built using Spring MVC Framework, Hibernate,&#10;Bootstrap, Apache Tomcat Application Server and MySQL for my Database.&#10;">
       <created>1475597436749</created>
@@ -974,11 +962,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476464341032</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Busy working on the Front-End Development using Bootstrap.">
+      <created>1476722022436</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1476722022436</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81516000" />
+    <option name="totallyTimeSpent" value="81565000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1177,6 +1172,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="547">
           <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1233,6 +1229,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
