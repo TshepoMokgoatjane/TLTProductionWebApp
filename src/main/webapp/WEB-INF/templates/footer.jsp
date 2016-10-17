@@ -5,7 +5,6 @@
   Time: 10:56 AM
   To change this template use File | Settings | File Templates.
 --%>
-    <!--div-- style="padding-bottom: 100px"></div-->
 
     <!-- Site footer -->
     <footer class="footer">
@@ -13,7 +12,6 @@
     </footer>
 
     </div>
-</div>
         <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
@@ -23,5 +21,8 @@
         <script src="${pageContext.request.contextPath}/resources/assets/js/docs.min.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="${pageContext.request.contextPath}/resources/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- W3 Slideshow Caption -->
+        <script src="${pageContext.request.contextPath}/resources/js/lib/w3.js"></script>
     </body>
 </html>
