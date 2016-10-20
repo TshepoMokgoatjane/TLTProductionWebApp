@@ -26,9 +26,6 @@
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="${pageContext.request.contextPath}/resources/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <!-- jQuery -->
-    <script src="${pageContext.request.contextPath}/resources/js/jquery-1.11.3.js"></script>
-
 
     <!-- Custom styles for this template -->
     <link href="${pageContext.request.contextPath}/resources/css/theme.css" rel="stylesheet">
@@ -39,7 +36,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/custom/mediaCSS.css" rel="stylesheet">
 
     <!-- Slideshow caption -->
-    <link href="${pageContext.request.contextPath}/resources/css/lib/w3.css" rel="stylesheet">
+    <!--link href="${pageContext.request.contextPath}/resources/css/lib/w3.css" rel="stylesheet"-->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

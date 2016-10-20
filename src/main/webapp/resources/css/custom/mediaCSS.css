@@ -68,7 +68,7 @@ h4 {
     font-style: normal;
 }
 .panel {
-    border: 1px solid #f4511e;
+    /*border: 1px solid #f4511e;*/
     border-radius:0 !important;
     transition: box-shadow 0.5s;
 }
